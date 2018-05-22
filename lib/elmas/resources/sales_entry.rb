@@ -11,6 +11,7 @@ module Elmas
     end
 
     def id
+      puts 'test'
       @attributes[:entry_id]
     end
 
