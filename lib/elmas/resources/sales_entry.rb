@@ -10,7 +10,7 @@ module Elmas
       "salesentry/SalesEntries"
     end
 
-    def id
+    def self.id
       puts 'test'
       @attributes[:entry_id]
     end
