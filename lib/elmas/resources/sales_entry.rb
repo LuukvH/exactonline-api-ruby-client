@@ -10,6 +10,10 @@ module Elmas
       "salesentry/SalesEntries"
     end
 
+    def id
+      @attributes[:entry_id]
+    end
+
     def mandatory_attributes
       %i[journal customer sales_entry_lines]
     end
