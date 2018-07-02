@@ -11,7 +11,7 @@ module Elmas
     end
 
     def mandatory_attributes
-      %i[callback_url topic]
+      %i[callback_URL topic]
     end
 
     def other_attributes
