@@ -46,7 +46,7 @@ require "elmas/resources/general_journal_entry"
 require "elmas/resources/general_journal_entry_line"
 require "elmas/resources/payment_condition"
 require "elmas/resources/division"
-require "elmas/resources/webhook_subscriptions"
+require "elmas/resources/webhook_subscription"
 
 module Elmas
   extend Config
