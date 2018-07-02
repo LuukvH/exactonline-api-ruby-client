@@ -14,5 +14,8 @@ module Elmas
       %i[callback_url topic]
     end
 
+    def other_attributes
+      []
+    end
   end
 end
