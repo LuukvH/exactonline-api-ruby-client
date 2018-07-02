@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Elmas
-  class WebhookSubscriptions
+  class WebhookSubscription
     # A sales entry needs multiple sales entry lines
     # It should also have a journal id and a contact id who ordered it
     include Elmas::Resource
